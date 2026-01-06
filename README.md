@@ -37,10 +37,10 @@ You can also open issues to suggest new features or report bugs.
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/talhausmandev/Think-TaskManager.git
+git clone https://github.com/talhausmandev/Do-It---Task-manager.git
 
 # 2️⃣ Navigate into the project folder
-cd Think-TaskManager
+cd Do-It---Task-manager
 
 # 3️⃣ And start you  development server
 
