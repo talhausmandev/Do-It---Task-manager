@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="do it.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Do It.</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <span">Do</span> <span>It</span><span>.</span>
+        </div>
+        <nav class="navbar">
+            <ul class="lg-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="http://talhausman.netlify.app">About</a></li>
+                <li><a href="http://talhausman.netlify.app/contact-me">Conatact Us</a></li>
+            </ul>
+            <div class="nav-add-btn" id="nav-add-btn">
+                <div class="inner">+ New</div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <ul class="sm-nav" id="sm-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="http://talhausman.netlify.app">About</a></li>
+        <li><a href="http://talhausman.netlify.app/contact-me">Conatact Us</a></li>
+    </ul>
+    <main>
+        <div class="tasks">
+            <div class="todo-table" id="todo-table">
+                <div class="todo-header">
+                    <div>Done</div>
+                    <div>Task</div>
+                    <div>Priority</div>
+                    <div>Due</div>
+                    <div>Actions</div>
+                </div>
+                <div class="todos-rows" id="todo-rows">
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+    <div class="add-task" id="add-task">
+        <div class="add-task-inputs">
+            <button class="close-btn" id="close-btn">X</button>
+            <input type="text" name="task" placeholder="Task" id="task-input">
+            <textarea name="task-desc" id="task-desc" placeholder="task description..."></textarea>
+            <input type="datetime-local" name="due-date" id="task-due-date">
+            <select name="task-priority" id="task-priority">
+                <option value="" disabled selected>Select priority</option>
+                <option value="🟩 Low">🟩 Low</option>
+                <option value="🟦 Medium">🟦 Medium</option>
+                <option value="🟨 High">🟨 High</option>
+                <option value="🟥 Urgent">🟥 Urgent</option>
+            </select>
+            <button type="submit" id="save-todo">Save Todo</button>
+        </div>
+    </div>
+
+    <div class="view-task" id="view-task">
+        <div class="task-details">
+            <h2>Task Details</h2>
+            <div class="task-info">
+                <p><strong>Task:</strong> <span id="view-title">Finish Project</span></p>
+                <p><strong>Description:</strong> <span id="view-desc">Complete all remaining features before
+                        deadline.</span></p>
+                <p><strong>Priority:</strong> <span id="view-priority">High</span></p>
+                <p><strong>Due Date:</strong> <span id="view-date">2025-10-20</span></p>
+            </div>
+
+            <div class="view-actions">
+                <button id="close-view">Close</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        Made with 💚 by Talha Usman
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
