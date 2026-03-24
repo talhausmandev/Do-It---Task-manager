@@ -14,7 +14,7 @@
 - 📝 **Add priority of todo**
 - 🖼️ **Add due date to complete task**
 - ⚡ **clean, and easy to use**
-
+- 😍 **Beautiful Design**
 ---
 
 
